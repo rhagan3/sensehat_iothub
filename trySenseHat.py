@@ -5,7 +5,7 @@ import iothub_client
 from iothub_client import *
 from sense_hat import SenseHat
 
-connectionString = "HostName=IOTSuiteHub2.azure-devices.net;DeviceId=new-device;SharedAccessKey=GMU7nWQpY7/niQlKhKv2GofMvWfhiUcmmJqXzc3CQ6w="
+connectionString = "<add your device connection string here>"
 Protocol = IoTHubTransportProvider.AMQP
 
 sense = SenseHat()
